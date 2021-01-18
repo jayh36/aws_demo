@@ -16,7 +16,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 public class PostsRepositoryTest {
 
-    @Autowired
+   /* @Autowired
     PostsRepository postsRepository;
 
     @After // Junit에서 단위 테스트가 끝날때마다 수행되는 메소드를 지정
@@ -45,7 +45,7 @@ public class PostsRepositoryTest {
         assertThat(posts.getContent()).isEqualTo(content);
     }
 
-    /*@Test
+    @Test
     public void BaseTimeEntity_등록() {
         //given
         LocalDateTime now = LocalDateTime.of(2019, 6, 4, 0, 0, 0);
@@ -64,5 +64,6 @@ public class PostsRepositoryTest {
 
         assertThat(posts.getCreatedDate()).isAfter(now);
         assertThat(posts.getModifiedDate()).isAfter(now);
-    }*/
+    }
+    */
 }
