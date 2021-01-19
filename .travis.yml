@@ -13,6 +13,7 @@ cache:
     - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
+# master 브랜치에 push되었을때 수행하는 명령어
 script: "./gradlew clean build"
 
 # CI 실행 완료시 메일로 알람
